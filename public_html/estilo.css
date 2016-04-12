@@ -1,0 +1,140 @@
+@font-face {
+	font-family: "Montserrat-Regular";
+	src: url("fontes/Montserrat-Regular.ttf") format("truetype");
+}
+
+body { 
+	font-family: Montserrat-Regular;
+	padding: 0; margin: 0; 
+}
+
+h1 { 
+	margin:0px;
+	color: #555; 
+} 
+input, textarea { 
+	width: 200px; 
+	padding: 10px; 
+	color: black; 
+	margin-left: 20px;
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border: 1px solid; 
+}
+ul{
+	list-style: none;
+}
+.info>div{
+	padding: 20px;
+        width: 70%;
+}
+.info-1, .info-3{
+        float:left;
+	background: #222;
+	padding: 20px;
+}
+.info-2{
+        float:left;
+	padding: 20px;
+}
+.info-1 h1, .info-3 h1, .tabela-horario h1{
+	color: #eee;
+}
+.info-1 li, .info-3 li, .tabela-horario li{
+	color: #999;
+}
+
+.info-1 ul li a {
+	color: #999;
+	padding: 5px 0px;
+}
+.container-principal{
+	width: 100%;
+	margin: 0px auto;
+	background: #fff;
+}
+.img-principal{
+	width: 20%;
+	display: block;
+	margin: 0px auto;
+	/*float: left;*/
+}
+.sobre{
+	display: block;
+	margin-bottom: 50px;
+}
+.sobre div{
+	width: 70%;
+	margin: 10px auto;
+	text-align: center;
+}
+.contato{
+	text-align: center;
+}
+.redes-sociais img{
+	height: 40px;
+}
+.tabela-horario {
+	padding: 20px;
+	background: #222;
+}
+.tabela-horario h1{
+	text-align: center;
+}
+
+.Link-sem-format{
+    text-decoration: none;
+}
+
+
+
+table{
+	margin: 5px auto;
+}
+table td{
+	color: #999;
+	padding: 5px 10px;
+}
+textarea { 
+	width: 400px; height: 120px; line-height: 20px; max-width: 400px; 
+} 
+
+footer{
+    background-color : #999999;
+}
+
+#header {
+  background: #ccc;
+  width:auto;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+#header h1{
+  text-align: center;
+  font-family: Sans-serif;
+}
+
+#nav{
+  background: #FADA00;
+  width: 30%;
+  text-align: center;
+  padding: 2px;
+  margin-top: 10px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 50%;
+}
+
+#nav ul li{
+  list-style: none;
+}
+#nav a{
+  color: #000000;
+}
+#nav a:hover{
+  color: #CA104E;
+  text-decoration: none;
+  font-size: 20px;
+}
