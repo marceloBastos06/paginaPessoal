@@ -6,14 +6,20 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Marcelo Antonio</title>
+        <title>Marcelo Bastos</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <link rel="stylesheet" type="text/css" href="estilo_index.css">
     </head>
     <body>
         <header id = "header">
-            <h1>Cabeçalho</h1>
+            <div class="sobre">
+                <img class="img-principal" src="imagens/marcelo.jpg">
+                <h1>Marcelo Bastos</h1>
+                <h2>Estudante</h2>
+                <p>Estuda BCC na unifal</p>
+            </div>
+
         </header>
         <!-- Início do Menu -->
 
@@ -21,19 +27,12 @@ and open the template in the editor.
         <div class="container-principal">
             <nav id="nav">
                 <ul>
-                    <li><a target="_blank"  href="http://tribitjr.com/">Inicio</a></li>
-                    <li><a target="_blank"  href="http://tribitjr.com/">Tribit</a></li>
-                    <li><a target="_blank"  href="http://www.piso.eco.br/">Piso</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="info.html">Informações</a></li>
+                    <li><a href="contato.html">Contato</a></li>
                 </ul>
             </nav>
-            <div class="sobre">
-                <!-- <img class="img-principal" src="imagens/torricoST.jpg"> -->
-                <div>
-                    <h1>Marcelo Antonio</h1>
-                    <h2>Estudante</h2>
-                    <p>Estuda BCC na unifal</p>
-                </div>
-            </div>
+
             <div class="info">
                 <div class="info-1">
                     <h1>O que já fiz: </h1>
@@ -92,29 +91,10 @@ and open the template in the editor.
 
         </div>
         <footer>
-            <div class="contato">
-                <h1>Contato</h1>
-                <form name="meu_form"> 
-                    <p class="nome"> 
-                        <input type="text" id="nomeid" placeholder="Entre com seu nome" required="required" name="nome" /> 
-                    </p>
-                    <p class="fone">
-                        <input type="text" id="foneid" placeholder="(xx) xxxxx-xxxx" name="fone" /> 
-                    </p>
-                    <p> 
-                        <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" /> 
-                    </p>
-                    <p> 
-                        <textarea placeholder="Deixe sua opnião"></textarea> 
-                    </p> 
-                    <p class="submit"> <input type="submit" onclick="Enviar();" value="Enviar" /> 
-                    </p> 
-                </form>
-                <div class="redes-sociais">
-                    <a href="https://www.facebook.com/dbtorrico" target="_blank"><img src="imagens/fb.png"></a>
-                </div>
-                <a href="#header" class="Link-sem-format">Voltar ao topo</a>
+            <div class="redes-sociais">
+                <a href="https://www.facebook.com/marcelo.antoniomendesbastos" target="_blank"><img src="imagens/fb.png"></a>
             </div>
+            <a href="#header" class="Link-sem-format">Voltar ao topo</a>
         </footer>
 
     </body>

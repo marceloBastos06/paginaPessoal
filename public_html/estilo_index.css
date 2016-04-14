@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("fontes/Montserrat-Regular.ttf") format("truetype");
+}
+
+body { 
+    font-family: Montserrat-Regular;
+    padding: 0; margin: 0; 
+}
+
+h1 { 
+    margin:0px;
+    color: #555; 
+} 
+input, textarea { 
+    width: 200px; 
+    padding: 10px; 
+    color: black; 
+    margin-left: 20px;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border: 1px solid; 
+}
+ul{
+    list-style: none;
+}
+.info>div{
+    width: 100%;
+}
+.info-1, .info-3{
+    background: #222;
+}
+
+.info-1 h1, .info-3 h1, .tabela-horario h1{
+    color: #eee;
+}
+.info-1 li, .info-3 li, .tabela-horario li{
+    color: #999;
+}
+
+.info-1 ul li a {
+    color: #999;
+    padding: 5px 0px;
+}
+.container-principal{
+    width: 99.5%;
+    height: 100%;
+    margin-right: 100px;
+    background: #fff;
+}
+.img-principal{
+    width: 180px;
+    float: center;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.sobre{
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.sobre div{
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+.contato{
+    text-align: center;
+}
+.redes-sociais img{
+    height: 40px;
+}
+.tabela-horario {
+    padding: 20px;
+    background: #222;
+}
+.tabela-horario h1{
+    text-align: center;
+}
+
+.Link-sem-format{
+    text-decoration: none;
+}
+
+
+
+table{
+    margin: 5px auto;
+}
+table td{
+    color: #999;
+    padding: 5px 10px;
+}
+textarea { 
+    width: 400px; height: 120px; line-height: 20px; max-width: 400px; 
+} 
+
+footer{
+    background-color : #999999;
+    text-align: center;
+    padding: 10px;
+}
+
+#header {
+    background: #f2f2f2;
+    width:auto;
+    height: 305px;
+    border-radius: 15px;
+    //border-top-left-radius: 5px;
+    //border-top-right-radius: 5px;
+    //border-bottom-right-radius: 15px;
+    //border-bottom-left-radius: 5px;
+    padding: 30px;
+    margin-left: 3px;
+    margin-right: 2px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+#header h1{
+    text-align: center;
+    font-family: Sans-serif;
+}
+
+#nav{
+    background: #99caff;
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 100px;
+    padding-left: 100px;
+    /* visual do link */
+    //background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+}
+
+
+#nav a{
+    color: #000000;
+    font-size: 19px;
+}
+
+#nav a:hover{
+    color: #CA104E;
+    text-decoration: none;
+    font-size: 20px;
+}
