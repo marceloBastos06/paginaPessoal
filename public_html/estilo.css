@@ -12,7 +12,7 @@ h1 {
     margin:0px;
     color: #555; 
 } 
-input, textarea { 
+input, textarea {
     width: 200px; 
     padding: 10px; 
     color: black; 
@@ -21,33 +21,35 @@ input, textarea {
     -moz-border-radius: 5px; 
     border: 1px solid; 
 }
+
 ul{
     list-style: none;
 }
 .info>div{
-    width: 100%;
-}
-.info-1, .info-3{
-    background: #222;
+    padding: 20px;
 }
 
-.info-1 h1, .info-3 h1, .tabela-horario h1{
-    color: #eee;
-}
-.info-1 li, .info-3 li, .tabela-horario li{
-    color: #999;
-}
+
 
 .info-1 ul li a {
     color: #999;
     padding: 5px 0px;
 }
 .container-principal{
-    width: 99.5%;
+    width: 100%;
     height: 100%;
-    margin-right: 100px;
-    background: #fff;
+    margin-right: 0px auto;
+    background: white;
 }
+
+.container-principal h1{
+    margin-left: 10px;
+}
+
+.container-principal ul{
+    margin-left: 20px;
+}
+
 .img-principal{
     width: 180px;
     float: center;
@@ -68,13 +70,17 @@ ul{
 }
 .contato{
     text-align: center;
+    padding: 25px;
 }
 .redes-sociais img{
     height: 40px;
+    margin-bottom: 10px;
 }
 .tabela-horario {
-    padding: 20px;
-    background: #222;
+    padding: 25px;
+    background: white;
+    text-align: center;
+    font-size: 16px;
 }
 .tabela-horario h1{
     text-align: center;
@@ -82,36 +88,45 @@ ul{
 
 .Link-sem-format{
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
+.table-id{
+    background-color: #222;
+    color: white;
+    font-weight: bold;
+}
 
+.table-livre{
+    //background-color: azure;
+    color: #999999;
+}
 
 table{
     margin: 5px auto;
+    //border-collapse: collapse;
 }
+
 table td{
-    color: #999;
+    color: black;
     padding: 5px 10px;
+    border: 1px;
 }
 textarea { 
     width: 400px; height: 120px; line-height: 20px; max-width: 400px; 
 } 
 
 footer{
-    background-color : #999999;
+    background: #bababa;
     text-align: center;
     padding: 10px;
 }
 
 #header {
-    background: #f2f2f2;
+    background: white;
     width:auto;
     height: 305px;
     border-radius: 15px;
-    //border-top-left-radius: 5px;
-    //border-top-right-radius: 5px;
-    //border-bottom-right-radius: 15px;
-    //border-bottom-left-radius: 5px;
     padding: 30px;
     margin-left: 3px;
     margin-right: 2px;
@@ -124,35 +139,54 @@ footer{
 }
 
 #nav{
-    background: #99caff;
-    width: 100%;
-    text-align: center;
+    background: #006960;//#222
+    text-align: left;
     padding: 2px;
     margin-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 10px;
+    margin: 10px;
     border-radius: 5px;
 }
 
 #nav ul li{
     list-style: none;
     display: inline-block;
-    padding-right: 100px;
-    padding-left: 100px;
     /* visual do link */
-    //background-color:#EDEDED;
     color: #333;
     text-decoration: none;
 }
 
+#nav ul{
+    padding-right: 17%;
+    text-align: center;
+}
+
+#nav li{
+    padding-left: 17%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
 
 #nav a{
-    color: #000000;
-    font-size: 19px;
+    display: inline-block;
+    color: #f2f2f2;
+    font-size: 18px;
+}
+
+#nav #atual{
+    color: #6699ff;//#CA104E, #ff0000
+    display: inline-block;
+    font-size: 20px;
+}
+
+#nav #atual:hover{
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 #nav a:hover{
-    color: #CA104E;
+    color: #ff0000;
     text-decoration: none;
     font-size: 20px;
 }

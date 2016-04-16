@@ -10,10 +10,28 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="estilo_index.css">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
     </head>
     <body>
-                    <div class="contato">
+        <header id = "header">
+            <div class="sobre">
+                <img class="img-principal" src="imagens/marcelo.jpg">
+                <h1>Marcelo Bastos</h1>
+                <h2>Estudante</h2>
+                <p>Estuda Bacharelado em Ciência da Computação na Unifal</p>
+            </div>
+
+        </header>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Sobre-mim.html">Sobre mim</a></li>
+                <li><a href="horario.html">Horário</a></li>
+                <li><a id="atual" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="container-principal">
+            <div class="contato">
                 <h1>Contato</h1>
                 <form name="meu_form"> 
                     <p class="nome"> 
@@ -31,9 +49,14 @@ and open the template in the editor.
                     <p class="submit"> <input type="submit" onclick="Enviar();" value="Enviar" /> 
                     </p> 
                 </form>
-                <div class="redes-sociais">
-                    <a href="https://www.facebook.com/marcelo.antoniomendesbastos" target="_blank"><img src="imagens/fb.png"></a>
-                </div>
             </div>
+        </div>
+        <footer>
+            <div class="redes-sociais">
+                <a href="https://www.facebook.com/marcelo.antoniomendesbastos" target="_blank"><img src="imagens/fb.png"></a>
+            </div>
+            <a href="#header" class="Link-sem-format">Voltar ao topo</a>
+            <br />Desenvolvido por Marcelo Bastos
+        </footer>
     </body>
 </html>
